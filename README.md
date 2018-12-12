@@ -21,14 +21,14 @@ Note that, this is a ongoing work and will be updated irregularly.
 | PAML + BERT | Nov 25, 2018 | PINGAN GammaLab | Large | 80.577 | 83.637 | 81.347 | 84.560 | - |
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large |  - | - | 81.178 | 84.251 | - |
 | PwP + BERT | Dec 03, 2018 | AITRICS | Large | 79.339 | 82.347 | 80.117 | 83.189 | - |
-| Candi-Net+BERT | Dec 05, 2018 | AITRICS | Large | - | - | 80.388 | 82.908 | - |
 | BERT | Nov 08, 2018 | Google AI Language  | Large | 78.741 | 81.775 | 80.005 | 83.061 | [link](https://arxiv.org/abs/1810.04805) | [code](https://github.com/google-research/bert) | 
+| Candi-Net+BERT | Dec 05, 2018 | AITRICS | Large | - | - | 80.388 | 82.908 | - |
 | L6Net + BERT | Nov 09, 2018 | Layer 6 AI  | ? | 78.345 | 81.321 | 79.181 | 82.259 | - |
 | SLQA + BERT | Nov 06, 2018 | Alibaba DAMO NLP | ? | - | - | 77.003 | 80.209 | - |
-| BERT_base_aug | Nov 8, 2018 | GammaLab | base | 75.911 | 79.027 | 76.720 | 79.610 | - | ensemble |
+| BERT_base_aug | Nov 8, 2018 | GammaLab | Base | 75.911 | 79.027 | 76.720 | 79.610 | - | ensemble |
 | F-Net | Nov 05, 2018 | Kangwon National Univ. | ? | - | - | 74.791 | 77.988 | - |
 | BERT+Answer Verifier | Nov 14, 2018 | Pingan Tech Olatop Lab | ? | 72.214 | 76.109 | 71.666 | 75.457 | - |
-| BASE | Nov 12, 2018 | Hithink RoyalFlush | base | 71.868 | 75.293 | 71.496 | 74.815 | - |
+| BASE | Nov 12, 2018 | Hithink RoyalFlush | Base | 71.868 | 75.293 | 71.496 | 74.815 | - |
 
 
 ## Non-BERT Track
@@ -40,8 +40,8 @@ Note that, this is a ongoing work and will be updated irregularly.
 | SLQA+ | Aug 28, 2018 | Alibaba DAMO NLP | - | - | 71.462 | 74.434 | [old-link](http://www.aclweb.org/anthology/P18-1158) | - |
 | RMR + Answer Verifier | Aug 15, 2018 | NUDT | - | - | 71.767 | 74.295 | [link](https://arxiv.org/abs/1808.05759) | - |
 | Unet | Sep 14, 2018 | Fudan Univ. & Liulishuo Lab | 70.361 | 73.975 | 69.262 | 72.642 | [link](https://arxiv.org/abs/1810.06638) | - | 
-| FusionNet++ | Aug 15, 2018 | NUDT | - | - | 71.767 | 74.295 | [old-link](https://arxiv.org/abs/1711.07341) | ensemble |
 | MLAF | Sep 26, 2018 | Chonbuk National Univ. | 69.384 | 72.878 | 69.476 | 72.857 | - | - |
+| FusionNet++ | Aug 15, 2018 | NUDT | - | - | 70.300 | 72.484 | [old-link](https://arxiv.org/abs/1711.07341) | ensemble |
 | BiDAF++ w/ pair2vec | Sep 13, 2018 | UW and FAIR | - | - | 68.021 | 71.583 | - | - |
 | SAN | Aug 21, 2018 | UW and FAIR | 69.54 | 72.66 | 68.021 | 71.583 | [link](https://arxiv.org/abs/1809.09194) | [code](https://github.com/kevinduh/san_mrc) |
 | VS^3-NET | Jul 13, 2018 | Kangwon National Univ. | - | - | 67.897 | 70.884 | - | - |
@@ -59,7 +59,7 @@ Note that, this is a ongoing work and will be updated irregularly.
 2. Anonymous submissions are ignored.
 3. In `Paper` section, `link` means the submitted model is exactly what the paper illustrates. `old-link` means there is somewhat mismatch with the paper and the submitted models.
 4. You will find additional scores of the development set, which is obtained from `PUBLIC` visible worksheets in CodaLab.
-
+5. The tables are sorted by the `Test-F1` score.
 
 ## Related Papers
 You can download the related papers with the following links.
