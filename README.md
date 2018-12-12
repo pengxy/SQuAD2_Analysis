@@ -1,9 +1,17 @@
-**Note that, this repository will be updated irregularly.**
+# Analysis on SQuAD 2.0 Submissions
 
-## Statement
-**If you find this repository helpful, please press the star button. Moreover, if you would like to use or repost the content in this repository, please indicate the orignal author and source link.**
+[SQuAD 2.0](http://stanford-qa.com) has been a popular benchmark for testing the ability of Machine Reading Comprehension (MRC). In this repository, I will list (almost) all models submitted to SQuAD 2.0 and summarize several features of these models as well as additional development scores. 
 
-For official leaderboard, please refer to: [http://stanford-qa.com]()
+Note that, this is a ongoing work and will be updated irregularly.
+
+## Content
+
+| Section | Description |
+|-|-|
+| [BERT Track](#BERT-Track) | Statistics for BERT-related models |
+| [Non-BERT Track](#Non-BERT-Track) | Statistics for non-BERT-related models |
+| [Note](#Note) | Description for the tables |
+| [Related Papers](#related-papers) | Related papers for SQuAD 2.0 |
 
 
 ## BERT Track
@@ -53,9 +61,35 @@ For official leaderboard, please refer to: [http://stanford-qa.com]()
 4. You will find additional scores of the development set, which is obtained from `PUBLIC` visible worksheets in CodaLab.
 
 
-## Contact
-For any problems, please leave a message in the `Github Issues`.
+## Related Papers
+You can download the related papers with the following links.
+> 1. (Rajpurkar and Jia et al., 2018) Know What You Don’t Know: Unanswerable Questions for SQuAD
+<br/>http://aclweb.org/anthology/P18-2124
+
+> 2. (Hu et al., 2018) Read + Verify: Machine Reading Comprehension with Unanswerable Questions
+<br/>https://arxiv.org/abs/1808.05759
+
+> 3. (Liu et al., 2018) Stochastic Answer Networks for SQuAD 2.0
+<br/>https://arxiv.org/abs/1809.09194
+
+> 4. (Sun et al., 2018) U-Net: Machine Reading Comprehension with Unanswerable Questions
+<br/>https://arxiv.org/abs/1810.06638
+
+> 5. (Devlin et al., 2018) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+<br/>https://arxiv.org/abs/1810.04805
+
+
+## Statement
+**If you find this repository helpful, please press the star button. Moreover, if you would like to use or repost the content in this repository, please indicate the orignal author and source link.**
+
+For official leaderboard, please refer to: [http://stanford-qa.com](http://stanford-qa.com)
 
 
 ## Disclaimer
 Any subjective comments in this repository only represents the idea of the owner (ymcui), and does not represent the claims of any organizations.
+
+
+
+## Contact
+For any problems, please leave a message in the `Github Issues`.
+
