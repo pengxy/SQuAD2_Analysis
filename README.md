@@ -13,6 +13,7 @@ Note that, this is an ongoing work and will be updated irregularly.
 | [Non-BERT Track](#Non-BERT-Track) | Statistics for non-BERT-related models |
 | [Ensemble Track](#Ensemble-Track) | Statistics for ensemble models |
 | [Note](#Note) | Description for the tables |
+| [TF v.s. PT of BERT](#TF-v.s.-PT-of-BERT) | Comparisons on TensorFlow & PyTorch version of BERT |
 | [Related Papers](#related-papers) | Related papers for SQuAD 2.0 |
 
 
@@ -81,6 +82,42 @@ Here are the ensemble models that appeared on the leaderboard. The number of the
 3. In `Paper` section, `link` means the submitted model is exactly what the paper illustrates. `old-link` means there is somewhat mismatch between the paper and the submitted models.
 4. You will find additional scores of the development set, which is obtained from `PUBLIC` visible worksheets in CodaLab.
 5. The tables are sorted by the `Test-F1` score.
+
+
+
+## TF v.s. PT of BERT
+
+Make a quick comparison of the [TensorFlow (official)](https://github.com/google-research/bert) and [PyTorch versions](https://github.com/huggingface/pytorch-pretrained-BERT) of BERT.
+
+| - | TensorFlow | PyTorch |
+| :------- | :-----: | :-----: |
+| Implementation | Official | Third-party | 
+| GitHub Repository | [link](https://github.com/google-research/bert) | [link](https://github.com/huggingface/pytorch-pretrained-BERT) | 
+| TPU Support | Yes | No (currently)<sup>1</sup> |
+| Deterministic **Trainng** Results | No<sup>2</sup> | Yes |
+| Pre-training Script | Yes | Yes |
+| Classifier Script | Yes | Yes |
+| SQuAD 1.1 Script | Yes | Yes |
+| SQuAD 2.0 Script | Yes | No<sup>3</sup> |
+| Flexible Evaluation | No<sup>4</sup> | Yes |
+
+
+### Notes and Tips
+1. PyTorch claims that they will support TPU in 1.0 version, but there is no further news on this.
+2. It is known to all that TensorFlow suffers from reproducibility problems (in training process). That is, whether you use fixed random seed or not, you will get different results under GPU/TPU. (Yes, in CPU setting, it will be reproducible, but I don't think there is much people who uses CPU for training large-scale nerual network models.)
+
+While PyTorch could easily get reproducible training results with the following functions (both CPU and GPU).
+```
+torch.backends.cudnn.deterministic = True
+ramdom.seed(12345)
+numpy.random.seed(12345)
+torch.manual_seed(12345)
+torch.cuda.manual_seed_all(12345)
+```
+When running the official TensorFlow implementation on SQuAD 2.0 task (i.e. `run_squad.py` script), the best score and worst score will have near **1.0 gap** in EM/F1 with the same codes and settings.
+**So, it is recommended that if you use TensorFlow codes, you should run your model several times to ensure the results are reliable.**
+3. The owner of the PyTorch-BERT said that they have no plans on implementing this feature, see [link](https://github.com/huggingface/pytorch-pretrained-BERT/issues/24).
+4. In original `run_squad.py`, the evaluations on the `dev-v2.0.json` are only performed when the training was completely done, which is quite annoying because good results may appear in the middle checkpoints. A simple way to fix is to save all checkpoints and evaluate them at the ending of training.
 
 
 ## Related Papers
