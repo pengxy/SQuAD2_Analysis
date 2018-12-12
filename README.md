@@ -6,11 +6,11 @@
 For official leaderboard, please refer to: [http://stanford-qa.com]()
 
 
-### BERT Track
+## BERT Track
 
 | System | Date | Institute | BERT | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Paper | Note |
 | :------- | :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |:-----: |:-----: |
-| PAML + BERT | Nov 25, 2018 | PINGAN GammaLab | Large | - | - | 81.347 | 84.560 | - |
+| PAML + BERT | Nov 25, 2018 | PINGAN GammaLab | Large | 80.577 | 83.637 | 81.347 | 84.560 | - |
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large |  - | - | 81.178 | 84.251 | - |
 | PwP + BERT | Dec 03, 2018 | AITRICS | Large | 79.339 | 82.347 | 80.117 | 83.189 | - |
 | Candi-Net+BERT | Dec 05, 2018 | AITRICS | Large | - | - | 80.388 | 82.908 | - |
@@ -19,20 +19,22 @@ For official leaderboard, please refer to: [http://stanford-qa.com]()
 | SLQA + BERT | Nov 06, 2018 | Alibaba DAMO NLP | ? | - | - | 77.003 | 80.209 | - |
 | BERT+Answer Verifier | Nov 14, 2018 | Pingan Tech Olatop Lab | ? | 72.214 | 76.109 | 71.666 | 75.457 | - |
 | BERT_base_aug | Nov 8, 2018 | GammaLab | base | 75.911 | 79.027 | 76.720 | 79.610 | - | ensemble |
+| BASE | Nov 12, 2018 | Hithink RoyalFlush | base | 71.868 | 75.293 | 71.496 | 74.815 | - | - |
 
 
-### Non-BERT Track
+
+## Non-BERT Track
 
 | System | Date | Institute | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Paper | Note |
 | :------- | :-----: | :-----: |  :-----: |  :-----: |  :-----: | :-----: |  :-----: |:-----: |
 | F-Net | Nov 05, 2018 | Kangwon National Univ. | - | - | 74.791 | 77.988 | - | - | 
 | nlnet | Sep 13, 2018 | Microsoft Research Asia | - | - | 74.272 | 77.052 | - | - | 
-| BASE | Nov 12, 2018 | Hithink RoyalFlush | - | - | 71.496 | 74.815 | - | - |
+| YARCS | Oct 12, 2018 | IBM Research AI | 72.273 | 75.200 | 72.670 | 75.507 | - | - |
 | SLQA+ | Aug 28, 2018 | Alibaba DAMO NLP | - | - | 71.462 | 74.434 | [old-link](http://www.aclweb.org/anthology/P18-1158) | - |
 | RMR + Answer Verifier | Aug 15, 2018 | NUDT | - | - | 71.767 | 74.295 | [link](https://arxiv.org/abs/1808.05759) | - |
-| Unet | Sep 14, 2018 | Fudan Univ. & Liulishuo Lab | - | - | 69.262 | 72.642 | [link](https://arxiv.org/abs/1810.06638) | - | 
+| Unet | Sep 14, 2018 | Fudan Univ. & Liulishuo Lab | 70.361 | 73.975 | 69.262 | 72.642 | [link](https://arxiv.org/abs/1810.06638) | - | 
 | FusionNet++ | Aug 15, 2018 | NUDT | - | - | 71.767 | 74.295 | [old-link](https://arxiv.org/abs/1711.07341) | ensemble |
-| MLAF | Sep 26, 2018 | Chonbuk National Univ. | - | - | 69.476 | 72.857 | - | - |
+| MLAF | Sep 26, 2018 | Chonbuk National Univ. | 69.384 | 72.878 | 69.476 | 72.857 | - | - |
 | BiDAF++ w/ pair2vec | Sep 13, 2018 | UW and FAIR | - | - | 68.021 | 71.583 | - | - |
 | SAN | Aug 21, 2018 | UW and FAIR | - | - | 68.021 | 71.583 | [link](https://arxiv.org/abs/1809.09194) | [code](https://github.com/kevinduh/san_mrc) |
 | VS^3-NET | Jul 13, 2018 | Kangwon National Univ. | - | - | 67.897 | 70.884 | - | - |
@@ -42,14 +44,14 @@ For official leaderboard, please refer to: [http://stanford-qa.com]()
 | BiDAF++ | Sep 13, 2018 | UW and FAIR | - | - | 65.651 | 68.866 | - | - |
 | BSAE AddText | Jun 27, 2018 | reciTAL.ai | - | - | 63.338 | 67.422 | - | - |
 | eeAttNet | Aug 14, 2018 | BBD NLP Team | - |- | 63.327 | 66.633 | - | - |
-| Tree-LSTM + BiDAF + ELMo | Nov 27, 2018 | CMU | - | - | 57.707 | 62.341 | - | - |
+| Tree-LSTM + BiDAF + ELMo | Nov 27, 2018 | CMU | 59.471 | 64.213 | 57.707 | 62.341 | - | - |
 
 
-### Note
+## Note
 1. I did not list the ensemble models here. However, if only ensemble models are available, I will list and mark it as ensemble.
 2. Anonymous submissions are ignored.
 3. In `Paper` section, `link` means the submitted model is exactly what the paper illustrates. `old-link` means there is somewhat mismatch with the paper and the submitted models.
-4. You will find additional score of the development set, which is obtained from `PUBLIC` visible worksheets in CodaLab.
+4. You will find additional scores of the development set, which is obtained from `PUBLIC` visible worksheets in CodaLab.
 
 
 ## Contact
