@@ -13,6 +13,7 @@ For official leaderboard, please refer to: [http://stanford-qa.com]()
 | PAML + BERT | Nov 25, 2018 | PINGAN GammaLab | Large | - | - | 81.347 | 84.560 | - |
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large |  - | - | 81.178 | 84.251 | - |
 | PwP + BERT | Dec 03, 2018 | AITRICS | Large | 79.339 | 82.347 | 80.117 | 83.189 | - |
+| Candi-Net+BERT | Dec 05, 2018 | AITRICS | Large | - | - | 80.388 | 82.908 | - |
 | BERT | Nov 08, 2018 | Google AI Language  | Large | 78.741 | 81.775 | 80.005 | 83.061 | [link](https://arxiv.org/abs/1810.04805) | [code](https://github.com/google-research/bert) | 
 | L6Net + BERT | Nov 09, 2018 | Layer 6 AI  | ? | 78.345 | 81.321 | 79.181 | 82.259 | - |
 | SLQA + BERT | Nov 06, 2018 | Alibaba DAMO NLP | ? | - | - | 77.003 | 80.209 | - |
