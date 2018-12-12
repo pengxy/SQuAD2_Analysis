@@ -62,6 +62,7 @@ Note that, this is a ongoing work and will be updated irregularly.
 | PAML + BERT | Nov 25, 2018 | PINGAN GammaLab | Large | 10 | 82.270 | 84.723 | 83.434 | 85.991 | - |
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large | 6 | - | - | 82.374 | 85.310 | - |
 | YARCS | Oct 12, 2018 | IBM Research AI | - | 20 | 72.273 | 75.200 | 72.670 | 75.507 | - |
+| PAML | Nov 16, 2018 | GammaLab | - | - | 71.692 | 74.354 | 71.248 | 74.015 | - |
 | Unet | Sep 17, 2018 | Fudan Univ. & Liulishuo Lab | - | 11 | 70.361 | 73.975 | 69.262 | 72.642 | - | 
 | FusionNet++ | Aug 15, 2018 | Microsoft Bussiness AI | - | 2 | 72.054 | 74.239 | 70.300 | 72.484 | - |
 | SAN | Aug 21, 2018 | UW and FAIR | - | - | 69.54 | 72.66 | 68.653 | 71.439 | - |
