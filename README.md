@@ -24,7 +24,7 @@ For official leaderboard, please refer to: [http://stanford-qa.com]()
 ### Non-BERT Track
 
 | System | Date | Institute | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Paper | Note |
-| :------- | :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |:-----: |:-----: |
+| :------- | :-----: | :-----: |  :-----: |  :-----: |  :-----: | :-----: |  :-----: |:-----: |
 | F-Net | Nov 05, 2018 | Kangwon National Univ. | - | - | 74.791 | 77.988 | - | - | 
 | nlnet | Sep 13, 2018 | Microsoft Research Asia | - | - | 74.272 | 77.052 | - | - | 
 | BASE | Nov 12, 2018 | Hithink RoyalFlush | - | - | 71.496 | 74.815 | - | - |
