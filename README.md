@@ -13,7 +13,7 @@ Note that, this is an ongoing work and will be updated irregularly.
 | [Non-BERT Track](#Non-BERT-Track) | Statistics for non-BERT-related models |
 | [Ensemble Track](#Ensemble-Track) | Statistics for ensemble models |
 | [Note](#Note) | Description for the tables |
-| [TF v.s. PT of BERT](#TF-v.s.-PT-of-BERT) | Comparisons on TensorFlow & PyTorch version of BERT |
+| [BERT-TF and BERT-PT](#BERT-TF-and-BERT-PT) | Comparisons on TensorFlow & PyTorch version of BERT |
 | [Related Papers](#related-papers) | Related papers for SQuAD 2.0 |
 
 
@@ -85,7 +85,7 @@ Here are the ensemble models that appeared on the leaderboard. The number of the
 
 
 
-## TF v.s. PT of BERT
+## BERT-TF and BERT-PT
 
 Make a quick comparison of the [TensorFlow (official)](https://github.com/google-research/bert) and [PyTorch versions](https://github.com/huggingface/pytorch-pretrained-BERT) of BERT.
 
