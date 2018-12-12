@@ -12,7 +12,6 @@ Note that, this is an ongoing work and will be updated irregularly.
 | [BERT Track](#BERT-Track) | Statistics for BERT-related models |
 | [Non-BERT Track](#Non-BERT-Track) | Statistics for non-BERT-related models |
 | [Ensemble Track](#Ensemble-Track) | Statistics for ensemble models |
-| [Note](#Note) | Description for the tables |
 | [BERT-TF and BERT-PT](#BERT-TF-and-BERT-PT) | Comparisons on TensorFlow & PyTorch version of BERT |
 | [Related Papers](#related-papers) | Related papers for SQuAD 2.0 |
 
@@ -61,6 +60,14 @@ Here are the submissions that **DO NOT** use [BERT](https://github.com/google-re
 | Tree-LSTM + BiDAF + ELMo | Nov 27, 2018 | CMU | 59.471 | 64.213 | 57.707 | 62.341 | - | - |
 
 
+### Note
+1. I did not list the ensemble models here. However, if only ensemble models are available, I will list and mark it with model names in italics.
+2. Anonymous submissions are ignored.
+3. In `Paper` section, `link` means the submitted model is exactly what the paper illustrates. `old-link` means there is somewhat mismatch between the paper and the submitted models.
+4. You will find additional scores of the development set, which is obtained from `PUBLIC` visible worksheets in CodaLab.
+5. The tables are sorted by the `Test-F1` score.
+
+
 ## Ensemble Track
 
 Here are the ensemble models that appeared on the leaderboard. The number of the models in ensemble is guessed by the content of these submissions (and of course it is publicly visible).
@@ -74,15 +81,6 @@ Here are the ensemble models that appeared on the leaderboard. The number of the
 | Unet | Sep 17, 2018 | Fudan Univ. & Liulishuo Lab | - | 11 | 70.361 | 73.975 | 69.262 | 72.642 | - | 
 | FusionNet++ | Aug 15, 2018 | Microsoft Bussiness AI | - | 2 | 72.054 | 74.239 | 70.300 | 72.484 | - |
 | SAN | Aug 21, 2018 | UW and FAIR | - | - | 69.54 | 72.66 | 68.653 | 71.439 | - |
-
-
-## Note
-1. I did not list the ensemble models here. However, if only ensemble models are available, I will list and mark it as ensemble (with model names in italics).
-2. Anonymous submissions are ignored.
-3. In `Paper` section, `link` means the submitted model is exactly what the paper illustrates. `old-link` means there is somewhat mismatch between the paper and the submitted models.
-4. You will find additional scores of the development set, which is obtained from `PUBLIC` visible worksheets in CodaLab.
-5. The tables are sorted by the `Test-F1` score.
-
 
 
 ## BERT-TF and BERT-PT
@@ -116,7 +114,9 @@ torch.cuda.manual_seed_all(12345)
 ```
 When running the official TensorFlow implementation on SQuAD 2.0 task (i.e. `run_squad.py` script), the best score and worst score will have near **1.0 gap** in EM/F1 with the same codes and settings.
 **So, it is recommended that if you use TensorFlow codes, you should run your model several times to ensure the results are reliable.**
+
 3. The owner of the PyTorch-BERT said that they have no plans on implementing this feature, see [link](https://github.com/huggingface/pytorch-pretrained-BERT/issues/24).
+
 4. In original `run_squad.py`, the evaluations on the `dev-v2.0.json` are only performed when the training was completely done, which is quite annoying because good results may appear in the middle checkpoints. A simple way to fix is to save all checkpoints and evaluate them at the ending of training.
 
 
