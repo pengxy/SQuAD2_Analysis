@@ -1,8 +1,9 @@
 # Analysis on SQuAD 2.0 Submissions
 
-[SQuAD 2.0](http://stanford-qa.com) has been a popular benchmark for testing the ability of Machine Reading Comprehension (MRC). In this repository, I will list (almost) all models submitted to SQuAD 2.0 and summarize several features of these models as well as additional development scores. 
+**[SQuAD 2.0](http://stanford-qa.com)** has been a popular benchmark for testing the ability of **Machine Reading Comprehension (MRC)**. In this repository, I will list (almost) all models submitted to SQuAD 2.0 and summarize several features of these models as well as additional development scores. 
 
-Note that, this is a ongoing work and will be updated irregularly.
+Note that, this is an ongoing work and will be updated irregularly.
+
 
 ## Content
 
@@ -77,13 +78,13 @@ Here are the ensemble models that appeared on the leaderboard. The number of the
 ## Note
 1. I did not list the ensemble models here. However, if only ensemble models are available, I will list and mark it as ensemble (with model names in italics).
 2. Anonymous submissions are ignored.
-3. In `Paper` section, `link` means the submitted model is exactly what the paper illustrates. `old-link` means there is somewhat mismatch with the paper and the submitted models.
+3. In `Paper` section, `link` means the submitted model is exactly what the paper illustrates. `old-link` means there is somewhat mismatch between the paper and the submitted models.
 4. You will find additional scores of the development set, which is obtained from `PUBLIC` visible worksheets in CodaLab.
 5. The tables are sorted by the `Test-F1` score.
 
 
 ## Related Papers
-You can download the related papers with the following links. I only listed the papers that are specificly designed for SQuAD 2.0 task. 
+You can download the related papers with the following links. I only list the papers that are specificly designed for SQuAD 2.0 task or reporting the results on SQuAD 2.0. 
 
 > 1. (Rajpurkar and Jia et al., 2018) Know What You Don’t Know: Unanswerable Questions for SQuAD
 <br/>http://aclweb.org/anthology/P18-2124
@@ -102,13 +103,13 @@ You can download the related papers with the following links. I only listed the 
 
 
 ## Statement
-**If you find this repository helpful, please press the star button. Moreover, if you would like to use or repost the content in this repository, please indicate the orignal author and source link.**
+**If you find this repository helpful, please press the star button. Moreover, if you would like to use or repost the content in this repository, please indicate the original author and source link.**
 
 For official leaderboard, please refer to: [http://stanford-qa.com](http://stanford-qa.com)
 
 
 ## Disclaimer
-Any subjective comments in this repository only represents the idea of the owner (ymcui), and does not represent the claims of any organizations.
+Any subjective comments in this repository only represents the idea of the owner (ymcui), and do not represent the claims of any organizations.
 
 
 ## Contact
