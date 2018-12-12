@@ -17,6 +17,8 @@ Note that, this is a ongoing work and will be updated irregularly.
 
 ## BERT Track
 
+Here are the submissions that uses [BERT](https://github.com/google-research/bert), which is known to have substantial improvements than previous non-BERT models. To have a better comparison, you can regard the `BERT by Google AI Language` as the baseline scores (using BERT-large).
+
 | System | Date | Institute | BERT | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Paper | Note |
 | :------- | :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |:-----: |:-----: |
 | PAML + BERT | Nov 27, 2018 | PINGAN GammaLab | Large | 80.577 | 83.637 | 81.347 | 84.560 | - |
@@ -33,6 +35,8 @@ Note that, this is a ongoing work and will be updated irregularly.
 
 
 ## Non-BERT Track
+
+Here are the submissions that **DO NOT** use [BERT](https://github.com/google-research/bert). But most of these models utilize [ELMo](https://allennlp.org/elmo) for enhancing the text representations. Though BERT-based models are substantially outperform these `old-day` models, it is still valuable to adopt some of these (published) techniques for future works.
 
 | System | Date | Institute | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Paper | Note |
 | :------- | :-----: | :-----: |  :-----: |  :-----: |  :-----: | :-----: |  :-----: |:-----: |
@@ -57,7 +61,9 @@ Note that, this is a ongoing work and will be updated irregularly.
 
 ## Ensemble Track
 
-| System | Date | Institute | BERT | model# | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Note |
+Here are the ensemble models that appeared on the leaderboard. The number of the models in ensemble is guessed by the content of these submissions (and of course it is publicly visible).
+
+| System | Date | Institute | BERT | Model# | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Note |
 | :------- | :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |:-----: |:-----: |
 | PAML + BERT | Nov 25, 2018 | PINGAN GammaLab | Large | 10 | 82.270 | 84.723 | 83.434 | 85.991 | - |
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large | 6 | - | - | 82.374 | 85.310 | - |
@@ -77,7 +83,8 @@ Note that, this is a ongoing work and will be updated irregularly.
 
 
 ## Related Papers
-You can download the related papers with the following links.
+You can download the related papers with the following links. I only listed the papers that are specificly designed for SQuAD 2.0 task. 
+
 > 1. (Rajpurkar and Jia et al., 2018) Know What You Don’t Know: Unanswerable Questions for SQuAD
 <br/>http://aclweb.org/anthology/P18-2124
 
@@ -104,7 +111,6 @@ For official leaderboard, please refer to: [http://stanford-qa.com](http://stanf
 Any subjective comments in this repository only represents the idea of the owner (ymcui), and does not represent the claims of any organizations.
 
 
-
 ## Contact
-For any problems, please leave a message in the `Github Issues`.
+For any problems, or if you found that I missed something, please leave a message in the `Issues` tab.
 
