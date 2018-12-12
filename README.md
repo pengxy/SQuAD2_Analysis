@@ -43,7 +43,7 @@ Note that, this is a ongoing work and will be updated irregularly.
 | FusionNet++ | Aug 15, 2018 | NUDT | - | - | 71.767 | 74.295 | [old-link](https://arxiv.org/abs/1711.07341) | ensemble |
 | MLAF | Sep 26, 2018 | Chonbuk National Univ. | 69.384 | 72.878 | 69.476 | 72.857 | - | - |
 | BiDAF++ w/ pair2vec | Sep 13, 2018 | UW and FAIR | - | - | 68.021 | 71.583 | - | - |
-| SAN | Aug 21, 2018 | UW and FAIR | - | - | 68.021 | 71.583 | [link](https://arxiv.org/abs/1809.09194) | [code](https://github.com/kevinduh/san_mrc) |
+| SAN | Aug 21, 2018 | UW and FAIR | 69.54 | 72.66 | 68.021 | 71.583 | [link](https://arxiv.org/abs/1809.09194) | [code](https://github.com/kevinduh/san_mrc) |
 | VS^3-NET | Jul 13, 2018 | Kangwon National Univ. | - | - | 67.897 | 70.884 | - | - |
 | GFN-NET | Jun 24, 2018 | Kangwon National Univ. | -| - | 68.213 | 70.878 | - | - |
 | KakaoNet2 | Jun 25, 2018 | Kakao NLP Team | -| - | 65.719 | 69.381 | - | - |
