@@ -20,6 +20,7 @@ For official leaderboard, please refer to: [http://stanford-qa.com]()
 | BERT+Answer Verifier | Nov 14, 2018 | Pingan Tech Olatop Lab | ? | 72.214 | 76.109 | 71.666 | 75.457 | - |
 | BERT_base_aug | Nov 8, 2018 | GammaLab | base | 75.911 | 79.027 | 76.720 | 79.610 | - | ensemble |
 
+
 ### Non-BERT Track
 
 | System | Date | Institute | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Paper | Note |
@@ -42,6 +43,7 @@ For official leaderboard, please refer to: [http://stanford-qa.com]()
 | BSAE AddText | Jun 27, 2018 | reciTAL.ai | - | - | 63.338 | 67.422 | - | - |
 | eeAttNet | Aug 14, 2018 | BBD NLP Team | - |- | 63.327 | 66.633 | - | - |
 | Tree-LSTM + BiDAF + ELMo | Nov 27, 2018 | CMU | - | - | 57.707 | 62.341 | - | - |
+
 
 ### Note
 1. I did not list the ensemble models here. However, if only ensemble models are available, I will list and mark it as ensemble.
