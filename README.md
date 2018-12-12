@@ -18,9 +18,9 @@ For official leaderboard, please refer to: [http://stanford-qa.com]()
 | L6Net + BERT | Nov 09, 2018 | Layer 6 AI  | ? | 78.345 | 81.321 | 79.181 | 82.259 | - |
 | SLQA + BERT | Nov 06, 2018 | Alibaba DAMO NLP | ? | - | - | 77.003 | 80.209 | - |
 | BERT_base_aug | Nov 8, 2018 | GammaLab | base | 75.911 | 79.027 | 76.720 | 79.610 | - | ensemble |
-| F-Net | Nov 05, 2018 | Kangwon National Univ. | - | - | 74.791 | 77.988 | - | - | 
+| F-Net | Nov 05, 2018 | Kangwon National Univ. | ? | - | - | 74.791 | 77.988 | - |
 | BERT+Answer Verifier | Nov 14, 2018 | Pingan Tech Olatop Lab | ? | 72.214 | 76.109 | 71.666 | 75.457 | - |
-| BASE | Nov 12, 2018 | Hithink RoyalFlush | base | 71.868 | 75.293 | 71.496 | 74.815 | - | - |
+| BASE | Nov 12, 2018 | Hithink RoyalFlush | base | 71.868 | 75.293 | 71.496 | 74.815 | - |
 
 
 ## Non-BERT Track
