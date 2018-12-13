@@ -92,7 +92,7 @@ Make a quick comparison of the [TensorFlow (official)](https://github.com/google
 | Implementation | Official | Third-party | 
 | GitHub Repository | [link](https://github.com/google-research/bert) | [link](https://github.com/huggingface/pytorch-pretrained-BERT) | 
 | TPU Support | Yes | No (currently)<sup>1</sup> |
-| Deterministic **Trainng** Results | No<sup>2</sup> | Yes |
+| Deterministic **Training** Results | No<sup>2</sup> | Yes |
 | Pre-training Script | Yes | Yes |
 | Classifier Script | Yes | Yes |
 | SQuAD 1.1 Script | Yes | Yes |
