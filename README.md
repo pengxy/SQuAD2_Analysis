@@ -49,7 +49,7 @@ Here are the submissions that **DO NOT** use [BERT](https://github.com/google-re
 | Unet | Sep 14, 2018 | Fudan Univ. & Liulishuo Lab | 70.361 | 73.975 | 69.262 | 72.642 | [link](https://arxiv.org/abs/1810.06638) | - | 
 | *FusionNet++* | Aug 15, 2018 | Microsoft Bussiness AI | - | - | 70.300 | 72.484 | [old-link](https://arxiv.org/abs/1711.07341) | - |
 | BiDAF++ w/ pair2vec | Sep 13, 2018 | UW and FAIR | - | - | 68.021 | 71.583 | - | - |
-| *SAN* | Aug 21, 2018 | UW and FAIR | 69.54 | 72.66 | 68.653 | 71.439 | [link](https://arxiv.org/abs/1809.09194) | [code](https://github.com/kevinduh/san_mrc) |
+| *SAN* | Aug 21, 2018 | Microsoft Bussiness AI | 69.54 | 72.66 | 68.653 | 71.439 | [link](https://arxiv.org/abs/1809.09194) | [code](https://github.com/kevinduh/san_mrc) |
 | VS^3-NET | Jul 13, 2018 | Kangwon National Univ. | - | - | 67.897 | 70.884 | - | - |
 | GFN-NET | Jun 24, 2018 | Kangwon National Univ. | -| - | 68.213 | 70.878 | - | - |
 | KakaoNet2 | Jun 25, 2018 | Kakao NLP Team | -| - | 65.719 | 69.381 | - | - |
