@@ -93,11 +93,13 @@ Make a quick comparison of the [TensorFlow (official)](https://github.com/google
 | GitHub Repository | [link](https://github.com/google-research/bert) | [link](https://github.com/huggingface/pytorch-pretrained-BERT) | 
 | TPU Support | Yes | No (currently)<sup>1</sup> |
 | Deterministic **Training** Results | No<sup>2</sup> | Yes |
-| Pre-training Script | Yes | Yes |
+| Pre-training Script | Yes | No |
 | Classifier Script | Yes | Yes |
 | SQuAD 1.1 Script | Yes | Yes |
 | SQuAD 2.0 Script | Yes | No<sup>3</sup> |
+| SWAG Script | No | Yes |
 | Flexible Evaluation | No<sup>4</sup> | Yes |
+| Speed Up | - | apex<sup>5</sup> |
 
 
 ### Notes and Tips
@@ -118,6 +120,8 @@ When running the official TensorFlow implementation on SQuAD 2.0 task (i.e. `run
 3. The owner of the PyTorch-BERT said that they have no plans on implementing this feature, see [link](https://github.com/huggingface/pytorch-pretrained-BERT/issues/24).
 
 4. In original `run_squad.py`, the evaluations on the `dev-v2.0.json` are only performed when the training was completely done, which is quite annoying because good results may appear in the middle checkpoints. A simple way to fix is to save all checkpoints and evaluate them at the ending of training.
+
+5. PyTorch-BERT with [apex](https://github.com/NVIDIA/apex) could give substantial speedup, check the latest code of [PyTorch-BERT](https://github.com/huggingface/pytorch-pretrained-BERT), also check [link](https://github.com/huggingface/pytorch-pretrained-BERT/pull/116)
 
 
 ## Related Papers
