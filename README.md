@@ -31,7 +31,7 @@ Here are the submissions that uses [BERT](https://github.com/google-research/ber
 | SLQA + BERT | Nov 06, 2018 | Alibaba DAMO NLP | ? | - | - | 77.003 | 80.209 | - |
 | *BERT_base_aug* | Nov 8, 2018 | GammaLab | Base | 75.911 | 79.027 | 76.720 | 79.610 | - | - |
 | F-Net | Nov 05, 2018 | Kangwon National Univ. | ? | - | - | 74.791 | 77.988 | - |
-| BERT+Answer Verifier | Nov 14, 2018 | Pingan Tech Olatop Lab | ? | 72.214 | 76.109 | 71.666 | 75.457 | - |
+| BERT+Answer Verifier | Nov 14, 2018 | Pingan Tech Olatop Lab | ? | 72.214 | 76.109 | 71.666 | 75.457 | pipeline |
 | BASE | Nov 12, 2018 | Hithink RoyalFlush | Base | 71.868 | 75.293 | 71.496 | 74.815 | - |
 
 
@@ -44,7 +44,7 @@ Here are the submissions that **DO NOT** use [BERT](https://github.com/google-re
 | nlnet | Sep 13, 2018 | Microsoft Research Asia | - | - | 74.272 | 77.052 | - | - | 
 | *YARCS* | Oct 12, 2018 | IBM Research AI | 72.273 | 75.200 | 72.670 | 75.507 | - | - |
 | SLQA+ | Aug 28, 2018 | Alibaba DAMO NLP | - | - | 71.462 | 74.434 | [old-link](http://www.aclweb.org/anthology/P18-1158) | - |
-| RMR + Answer Verifier | Aug 15, 2018 | NUDT | - | - | 71.767 | 74.295 | [link](https://arxiv.org/abs/1808.05759) | - |
+| RMR + Answer Verifier | Aug 15, 2018 | NUDT | - | - | 71.767 | 74.295 | [link](https://arxiv.org/abs/1808.05759) | pipeline |
 | MLAF | Sep 26, 2018 | Chonbuk National Univ. | 69.384 | 72.878 | 69.476 | 72.857 | - | - |
 | Unet | Sep 14, 2018 | Fudan Univ. & Liulishuo Lab | 70.361 | 73.975 | 69.262 | 72.642 | [link](https://arxiv.org/abs/1810.06638) | - | 
 | *FusionNet++* | Aug 15, 2018 | Microsoft Bussiness AI | - | - | 70.300 | 72.484 | [old-link](https://arxiv.org/abs/1711.07341) | - |
