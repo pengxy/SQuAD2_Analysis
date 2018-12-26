@@ -22,10 +22,12 @@ Here are the submissions that uses [BERT](https://github.com/google-research/ber
 
 | System | Date | Institute | BERT | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Paper | Note |
 | :------- | :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |:-----: |:-----: |
-| PAML + BERT | Nov 27, 2018 | PINGAN GammaLab | Large | 80.577 | 83.637 | 81.347 | 84.560 | - |
+| PAML + BERT | Dec 17, 2018 | PINGAN GammaLab | Large | 81.959 | 84.723 | 82.577 | 85.603 | - |
+| BERT finetune baseline | Dec 12, 2018 | Anonymous | - | - | - | 82.125 | 84.820 | - |
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large |  - | - | 81.178 | 84.251 | - |
 | PwP + BERT | Dec 03, 2018 | AITRICS | Large | 79.339 | 82.347 | 80.117 | 83.189 | - |
 | BERT | Nov 08, 2018 | Google AI Language  | Large | 78.741 | 81.775 | 80.005 | 83.061 | [link](https://arxiv.org/abs/1810.04805) | [code](https://github.com/google-research/bert) | 
+| NEXYS_BASE | Dec 06, 2018 | NEXYS | Large | 78.194 | 81.392 | 80.117 | 83.189 | - |
 | Candi-Net+BERT | Dec 05, 2018 | 42Maru NLP Team | Large | - | - | 80.388 | 82.908 | - |
 | L6Net + BERT | Nov 09, 2018 | Layer 6 AI  | ? | 78.345 | 81.321 | 79.181 | 82.259 | - |
 | SLQA + BERT | Nov 06, 2018 | Alibaba DAMO NLP | ? | - | - | 77.003 | 80.209 | - |
@@ -74,8 +76,10 @@ Here are the ensemble models that appeared on the leaderboard. The number of the
 
 | System | Date | Institute | BERT | Model# | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Note |
 | :------- | :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |:-----: |:-----: |
+| BERT finetune baseline | Dec 13, 2018 | Anonymous | - | - | - | - | 83.536 | 86.096 | - |
 | PAML + BERT | Nov 25, 2018 | PINGAN GammaLab | Large | 10 | 82.270 | 84.723 | 83.434 | 85.991 | - |
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large | 6 | - | - | 82.374 | 85.310 | - |
+| Candi-Net + BERT | Dec 10, 2018 | 42Maru NLP Team | - | - | - | - | 82.126 | 84.624 | - |
 | YARCS | Oct 12, 2018 | IBM Research AI | - | 20 | 72.273 | 75.200 | 72.670 | 75.507 | - |
 | PAML | Nov 16, 2018 | GammaLab | - | - | 71.692 | 74.354 | 71.248 | 74.015 | - |
 | Unet | Sep 17, 2018 | Fudan Univ. & Liulishuo Lab | - | 11 | 70.361 | 73.975 | 69.262 | 72.642 | - | 
