@@ -27,7 +27,7 @@ Here are the submissions that uses [BERT](https://github.com/google-research/ber
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large |  - | - | 81.178 | 84.251 | - |
 | PwP + BERT | Dec 03, 2018 | AITRICS | Large | 79.339 | 82.347 | 80.117 | 83.189 | - |
 | BERT | Nov 08, 2018 | Google AI Language  | Large | 78.741 | 81.775 | 80.005 | 83.061 | [link](https://arxiv.org/abs/1810.04805) | [code](https://github.com/google-research/bert) | 
-| NEXYS_BASE | Dec 06, 2018 | NEXYS | Large | 78.194 | 81.392 | 80.117 | 83.189 | - |
+| NEXYS_BASE | Dec 06, 2018 | NEXYS | Large | 78.194 | 81.392 | 79.779 | 82.912 | - |
 | Candi-Net+BERT | Dec 05, 2018 | 42Maru NLP Team | Large | - | - | 80.388 | 82.908 | - |
 | L6Net + BERT | Nov 09, 2018 | Layer 6 AI  | ? | 78.345 | 81.321 | 79.181 | 82.259 | - |
 | SLQA + BERT | Nov 06, 2018 | Alibaba DAMO NLP | ? | - | - | 77.003 | 80.209 | - |
