@@ -22,7 +22,7 @@ Here are the submissions that uses [BERT](https://github.com/google-research/ber
 
 | System | Date | Institute | BERT | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Paper | Note |
 | :------- | :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |:-----: |:-----: |
-| Lunet+Verifier+BERT | Dec 15, 2018 | Layer 6 AI NLP Team | Large | 81.504 | 84.497 | 82.994 | 86.035 | - | see [note#1](###-Note-on-BERT-Track) |
+| Lunet+Verifier+BERT | Dec 15, 2018 | Layer 6 AI NLP Team | Large | 81.504 | 84.497 | 82.994 | 86.035 | - | [note#1](#-Note-on-BERT-Track) |
 | PAML + BERT | Dec 16, 2018 | PINGAN GammaLab | Large | 81.959 | 84.723 | 82.577 | 85.603 | - | - |
 | BERT finetune baseline | Dec 12, 2018 | Anonymous | - | - | - | 82.125 | 84.820 | - | - |
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large |  - | - | 81.178 | 84.251 | - | - |
