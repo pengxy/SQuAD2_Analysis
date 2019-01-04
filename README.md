@@ -22,19 +22,24 @@ Here are the submissions that uses [BERT](https://github.com/google-research/ber
 
 | System | Date | Institute | BERT | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Paper | Note |
 | :------- | :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |:-----: |:-----: |
-| PAML + BERT | Dec 17, 2018 | PINGAN GammaLab | Large | 81.959 | 84.723 | 82.577 | 85.603 | - |
-| BERT finetune baseline | Dec 12, 2018 | Anonymous | - | - | - | 82.125 | 84.820 | - |
-| AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large |  - | - | 81.178 | 84.251 | - |
-| PwP + BERT | Dec 03, 2018 | AITRICS | Large | 79.339 | 82.347 | 80.117 | 83.189 | - |
+| Lunet+Verifier+BERT | Dec 15, 2018 | Layer 6 AI NLP Team | Large | 81.504 | 84.497 | 82.994 | 86.035 | - | see [note#1](###-Note-on-BERT-Track) |
+| PAML + BERT | Dec 16, 2018 | PINGAN GammaLab | Large | 81.959 | 84.723 | 82.577 | 85.603 | - | - |
+| BERT finetune baseline | Dec 12, 2018 | Anonymous | - | - | - | 82.125 | 84.820 | - | - |
+| AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large |  - | - | 81.178 | 84.251 | - | - |
+| Candi-Net+BERT | Dec 19, 2018 | 42Maru NLP Team | Large | - | - | 80.659 | 83.562 | - | - |
+| PwP + BERT | Dec 03, 2018 | AITRICS | Large | 79.339 | 82.347 | 80.117 | 83.189 | - | - |
 | BERT | Nov 08, 2018 | Google AI Language  | Large | 78.741 | 81.775 | 80.005 | 83.061 | [link](https://arxiv.org/abs/1810.04805) | [code](https://github.com/google-research/bert) | 
-| NEXYS_BASE | Dec 06, 2018 | NEXYS | Large | 78.194 | 81.392 | 79.779 | 82.912 | - |
-| Candi-Net+BERT | Dec 05, 2018 | 42Maru NLP Team | Large | - | - | 80.388 | 82.908 | - |
-| L6Net + BERT | Nov 09, 2018 | Layer 6 AI  | ? | 78.345 | 81.321 | 79.181 | 82.259 | - |
-| SLQA + BERT | Nov 06, 2018 | Alibaba DAMO NLP | ? | - | - | 77.003 | 80.209 | - |
+| NEXYS_BASE | Dec 06, 2018 | NEXYS | Large | 78.194 | 81.392 | 79.779 | 82.912 | - | - |
+| L6Net + BERT | Nov 09, 2018 | Layer 6 AI  | ? | 78.345 | 81.321 | 79.181 | 82.259 | - | - |
+| BERT+AC | Dec 14, 2018 | Hithink RoyalFlush  | ? | - | - | 78.052 | 81.174 | - | - |
+| SLQA + BERT | Nov 06, 2018 | Alibaba DAMO NLP | ? | - | - | 77.003 | 80.209 | - | - |
 | *BERT_base_aug* | Nov 8, 2018 | GammaLab | Base | 75.911 | 79.027 | 76.720 | 79.610 | - | - |
-| F-Net | Nov 05, 2018 | Kangwon National Univ. | ? | - | - | 74.791 | 77.988 | - |
-| BERT+Answer Verifier | Nov 14, 2018 | Pingan Tech Olatop Lab | ? | 72.214 | 76.109 | 71.666 | 75.457 | pipeline |
-| BASE | Nov 12, 2018 | Hithink RoyalFlush | Base | 71.868 | 75.293 | 71.496 | 74.815 | - |
+| F-Net | Nov 05, 2018 | Kangwon National Univ. | ? | - | - | 74.791 | 77.988 | - | - |
+| BERT+Answer Verifier | Nov 14, 2018 | Pingan Tech Olatop Lab | ? | 72.214 | 76.109 | 71.666 | 75.457 | - | pipeline |
+| BASE | Nov 12, 2018 | Hithink RoyalFlush | Base | 71.868 | 75.293 | 71.496 | 74.815 | - | - |
+
+### Note on BERT Track
+1. Actually, I find this submission was not using ONE model for prediction, though they annotate their submission as 'single model'. 
 
 
 ## Non-BERT Track
@@ -50,6 +55,7 @@ Here are the submissions that **DO NOT** use [BERT](https://github.com/google-re
 | MLAF | Sep 26, 2018 | Chonbuk National Univ. | 69.384 | 72.878 | 69.476 | 72.857 | - | - |
 | Unet | Sep 14, 2018 | Fudan Univ. & Liulishuo Lab | 70.361 | 73.975 | 69.262 | 72.642 | [link](https://arxiv.org/abs/1810.06638) | - | 
 | *FusionNet++* | Aug 15, 2018 | Microsoft Bussiness AI | - | - | 70.300 | 72.484 | [old-link](https://arxiv.org/abs/1711.07341) | - |
+| Doc QA + NeurQuRI | Dec 20, 2018 | 2SAH | - | - | 68.766 | 71.662 | - | - |
 | BiDAF++ w/ pair2vec | Sep 13, 2018 | UW and FAIR | - | - | 68.021 | 71.583 | - | - |
 | *SAN* | Aug 21, 2018 | Microsoft Bussiness AI | 69.54 | 72.66 | 68.653 | 71.439 | [link](https://arxiv.org/abs/1809.09194) | [code](https://github.com/kevinduh/san_mrc) |
 | VS^3-NET | Jul 13, 2018 | Kangwon National Univ. | - | - | 67.897 | 70.884 | - | - |
@@ -60,7 +66,6 @@ Here are the submissions that **DO NOT** use [BERT](https://github.com/google-re
 | BSAE AddText | Jun 27, 2018 | reciTAL.ai | - | - | 63.338 | 67.422 | - | - |
 | eeAttNet | Aug 14, 2018 | BBD NLP Team | - |- | 63.327 | 66.633 | - | - |
 | Tree-LSTM + BiDAF + ELMo | Nov 27, 2018 | CMU | 59.471 | 64.213 | 57.707 | 62.341 | - | - |
-
 
 ### Note
 1. I did not list the ensemble models here. However, if only ensemble models are available, I will list and mark it with model names in italics.
@@ -76,6 +81,7 @@ Here are the ensemble models that appeared on the leaderboard. The number of the
 
 | System | Date | Institute | BERT | Model# | Dev-EM | Dev-F1 | Test-EM | Test-F1 | Note |
 | :------- | :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |  :-----: |:-----: |:-----: |
+| Lunet+Verifier+BERT | Dec 16, 2018 | Layer 6 AI NLP Team | Large | 8 | 83.104 | 85.403 | 83.469 | 86.043 | - |
 | BERT finetune baseline | Dec 13, 2018 | Anonymous | - | - | - | - | 83.536 | 86.096 | - |
 | PAML + BERT | Nov 25, 2018 | PINGAN GammaLab | Large | 10 | 82.270 | 84.723 | 83.434 | 85.991 | - |
 | AoA + DA + BERT | Nov 16, 2018 | Joint Laboratory of HIT & iFLYTEK Research  | Large | 6 | - | - | 82.374 | 85.310 | - |
